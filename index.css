@@ -64,7 +64,8 @@ section {
 }
 
 ul {
-    padding: 10px, 0px, 0px, 18px;
+    padding-left: 1rem;
+    
 }
 
 #tech {
@@ -92,8 +93,12 @@ figcaption {
     top: -1.5rem;
 }
 
-h2, h4 {
+h2 {
     color: white
+}
+
+h4 {
+    color: white;
 }
 
 #copyright {
