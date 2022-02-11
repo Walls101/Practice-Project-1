@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #0e2440;
+}
+
+header {
+    text-align: center;
+}
+
+/*header img {
+    height: 100px;
+}
+You can either use header img or .logo
+I figured out .logo and the class is in the header.
+*/
+.logo {
+    height: 150px;
+}
+
+main {
+
+}
+
+section {
+    margin: 2rem 0;
+}
+
+#profile {
+    height: 205px;
+    width: 205px;
+}
+
+#bio {
+    display: flex;
+}
+
+#bio-choose {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: .5rem;
+}
+
+#name-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+#choose-list {
+    background-color: #888888;
+    padding: 1rem 2rem;
+    font-size: 1.25;
+}
+
+ul {
+    padding: 10px, 0px, 0px, 18px;
+}
+
+#tech {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tech img {
+    height: 10rem;
+}
+
+#picture {
+    width: 175px;
+    height: 175px;
+}
+
+figure {
+    text-align: center;
+    width: 12rem;
+}
+
+figcaption {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -1.5rem;
+}
+
+h2, h4 {
+    color: white
+}
+
+#copyright {
+    background-color: #0508a7;
+    text-align: center;
+}
+
+p {
+    background-color: #888888;
+    padding-left: 18px;
+}
+
+#interest {
+    margin: 0px;
+    
+}
+
+#title {
+    background-color: #888888;
+    padding-left: 18px;
+    color: #0508a7;
+}
